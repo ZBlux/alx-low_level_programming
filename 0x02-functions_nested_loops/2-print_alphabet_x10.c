@@ -10,6 +10,6 @@ void print_alphabet_x10(void)
 	{
 		print_alphabet();
 		count++;
-		-putchar('\n');
+		_putchar('\n');
 	}
 }
