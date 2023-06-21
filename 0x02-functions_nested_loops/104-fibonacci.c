@@ -19,6 +19,6 @@ int main(void)
 		f1 = f2;
 		f2 = fn;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
