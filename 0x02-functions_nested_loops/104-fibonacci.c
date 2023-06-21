@@ -15,7 +15,7 @@ int main(void)
 	for (c = 3; c <= 96; c++)
 	{
 		fn = f1 + f2;
-		printf("%lu", fn);
+		printf(", %lu", fn);
 		f1 = f2;
 		f2 = fn;
 	}
