@@ -7,8 +7,11 @@
 
 int main(void)
 {
-	unsigned long int f1 = 1, f2 = 2, fn;
+	unsigned long int f1, f2, fn;
 	int c;
+
+	f1 = 1;
+	f2 = 2;
 
 	printf("%lu, %lu", f1, f2);
 
