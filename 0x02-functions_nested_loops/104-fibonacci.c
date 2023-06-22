@@ -17,11 +17,11 @@ int main(void)
 
 	for (c = 3; c <= 98; c++)
 	{
-		fn = f1 + f2;
+		fn = (f1 + f2);
 		printf(", %lu", fn);
 
-		f1 = f2;
-		f2 = fn;
+		f1 = (f2);
+		f2 = (fn);
 	}
 
 	printf("\n");
