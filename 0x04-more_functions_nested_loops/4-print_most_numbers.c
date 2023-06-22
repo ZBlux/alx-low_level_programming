@@ -10,7 +10,6 @@ void print_numbers(void)
 	{
 		if (c != '4' && c != '2')
 		_putchar(c);
-		else
 	}
 	_putchar('\n');
 }
