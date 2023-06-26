@@ -2,9 +2,9 @@
 /**
  *reset_to_98- function that resets to 98
  *
- *@*n: variable
+ *@n: variable
  */
 void reset_to_98(int *n)
 {
-	int *n = 98;
+	*n = 98;
 }
