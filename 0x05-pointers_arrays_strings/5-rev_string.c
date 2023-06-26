@@ -19,13 +19,13 @@ int _strlen(char *s)
 	return (i);
 }
 /**
- *print_rev- prints in reverse
+ *rev_string- prints in reverse
  *
  *@s: string
  *
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int j;
 
