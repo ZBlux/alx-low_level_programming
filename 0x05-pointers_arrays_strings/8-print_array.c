@@ -1,4 +1,4 @@
-#include "main .h"
+#include "main.h"
 
 /**
  *print_array- prints aray
@@ -17,6 +17,6 @@ void print_array(int *a, int n)
 			printf("%d \n", *(a + i));
 		}
 		else
-			printf("%d, ",*(a + i));
+			printf("%d, ", *(a + i));
 	}
 }
