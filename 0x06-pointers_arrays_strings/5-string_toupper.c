@@ -3,17 +3,17 @@
 /**
  *string_toupper- switch to upper
  *
+ *@s: string
  *
- *Return: c
+ *Return: s
  */
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int i;
-	char c;
 
-	for (i = 0; c <= 'z' && c >= 'a'; i++)
+	for (i = 0; s <= 'z' && s >= 'a'; i++)
 	{
-		c[i] = c[i] - 32;
+		s[i] = s[i] - 32;
 	}
-	return (c);
+	return (s);
 }
