@@ -6,8 +6,9 @@
  *@s: string
  *@c: character
  *
- *Return: s+1 or NULL
+ *Return: first occurrence of c 
  */
+
 char *_strchr(char *s, char c)
 {
 	int i;
