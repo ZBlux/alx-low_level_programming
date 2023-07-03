@@ -6,7 +6,7 @@
  *@s: string
  *@c: character
  *
- *Return: first occurrence of c 
+ *Return: first occurrence of c
  */
 
 char *_strchr(char *s, char c)
