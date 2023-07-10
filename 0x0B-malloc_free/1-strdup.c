@@ -16,7 +16,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (i = 0, str[i] != '\0', i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 	}
 	p = mallpc(sizeof(char) * (i + 1));
