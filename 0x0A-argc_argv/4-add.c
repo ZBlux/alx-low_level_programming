@@ -16,19 +16,21 @@ int main(int argc, char *argv[])
 	if (argc == 1)
 	{
 		printf("0\n");
-		return (0);
 	}
-	result = 0;
-	for (i = 1; i < argc; i++)
+	else
 	{
-		p = argv[i];
-		l = strlen(p);
-		for (j = 0; j < l; j++)
+		result = 0;
+		for (i = 1; i < argc; i++)
 		{
-			if (!isdigit(p[j]))
+			p = argv[i];
+			l = strlen(p);
+			for (j = 0; j < l; j++)
 			{
-				printf("Error\n");
-				return (1);
+				if (!isdigit(p[j]))
+				{
+					printf("Error\n");
+					return (1);
+				}
 			}
 			result = result + atoi(argv[i]);
 		}
