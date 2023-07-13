@@ -16,5 +16,20 @@ int main(int argc, char *argv[])
 	{
 		printf("0\n");
 	}
-	else if (
+	for (i = 1; i < argc; i++)
+	{
+		p = argv[i];
+		l = strlen(p);
+		for (j = 0; j < l; j++)
+		{
+			if (!isdigit(p[j]))
+			{
+				printf("Error\n");
+				return (1);
+			}
+			result = result + atoi(argv[i]);
+		}
+	}
+	printf("%d\n", result);
+	return (result);
 }
