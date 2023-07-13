@@ -10,12 +10,15 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, result;
+	int i, j, l, result;
+	char *p;
 
 	if (argc == 1)
 	{
 		printf("0\n");
+		return (0);
 	}
+	result = 0;
 	for (i = 1; i < argc; i++)
 	{
 		p = argv[i];
