@@ -5,6 +5,7 @@
  *print_dog- function that prints a dog's name age and owner
  *
  *@d: structure holding variables
+ *Return: nothing
  */
 void print_dog(struct dog *d)
 {
