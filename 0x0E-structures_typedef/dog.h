@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
- *struct dog- enter information of ur dog
+ *struct dog- structure representing a dog
  *
  *@name: name of the dog
  *@age: age of the dog
