@@ -1,13 +1,13 @@
 #include "lists.h"
 
 /**
- *print_dlistint- function that prints all elements
+ *dlistint_len- function that prints all elements
  *
  *@h: head
  *
  *Return: n
  */
-size_t print_dlistint(const dlistint_t *h)
+size_t dlistint_len(const dlistint_t *h);
 {
 	size_t n = 0;
 
