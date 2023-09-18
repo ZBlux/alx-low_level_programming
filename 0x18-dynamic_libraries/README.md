@@ -1,0 +1,1 @@
+dynamic libraries is better
